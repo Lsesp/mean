@@ -32,7 +32,7 @@ export class RegisterComponent implements OnInit {
     
     //Required fields
     if(!this.validateService.validateRegister(user)){
-      this.flashMessagesService.show('Please fill in all fields', {cssClass: 'alert-danger', timeout: 3000});
+      this.flashMessagesService.show('Please fill in all fields!!', {cssClass: 'alert-danger', timeout: 3000});
       return false;
     }
 
