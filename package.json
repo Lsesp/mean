@@ -11,6 +11,7 @@
     "bcryptjs": "*",
     "body-parser": "*",
     "cors": "*",
+    "eslint": "^3.19.0",
     "express": "*",
     "jsonwebtoken": "*",
     "lodash": "^4.17.4",
